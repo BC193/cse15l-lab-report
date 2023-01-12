@@ -3,7 +3,7 @@
 
 >the above image is a UCSD logo (dropdown quotes are a way to have information) 
 
-[Link]https://ucsd.edu/
+https://ucsd.edu/
 
 *Italics are a nice way to to show extra information while slightly hiding them away*
 
