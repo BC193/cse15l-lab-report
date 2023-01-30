@@ -2,15 +2,16 @@
 
 ## Installing VS Code
 >VS Code is the code editor that will be used throughout this course.
-1. Visit the Visual Studio Code website and download the proper version for your machines OS. 
+1. Visit the Visual Studio Code website (https://code.visualstudio.com/) and download the proper version for your machines OS. 
 2. Once you have downlaoded the installer follow the prompts and finish the installation.
-3. AFter you ahve completed this VS Code should be installed and ready to use on your machine
+3. After you have completed this VS Code should be installed and ready to use on your machine
 
 <img width="300" alt="Screen Shot 2023-01-12 at 10 19 52 AM" src="https://user-images.githubusercontent.com/83740546/212490770-73df3e29-d4eb-4819-a8cd-9e3b9f386a85.png">
 
 
 ## Virtually Connecting
 >To access the virtual computer we had to log onto the server. Using credentials generated for us it gave us access to our own individual accounts
+
 
 1. Access your class specific account by visiting the website https://sdacs.ucsd.edu/~icc/index.php
 2. Locate your account and change the course specific password meeting the requirements of the website
@@ -20,7 +21,7 @@
 6. Agree to the message and then type in the password that you have set up with the account
 7. The setup will end with a instance that is similar to the image below 
 
-<img width="507" alt="Screen Shot 2023-01-12 at 10 46 51 AM" src="https://user-images.githubusercontent.com/83740546/212490809-769fd6a7-9dee-4d13-b73c-3d8c5ef31389.png">
+<img width="252" alt="accountlookup" src="https://user-images.githubusercontent.com/83740546/215583728-d8cff7cf-3257-44c2-a1ee-8a26155f71f7.png"> <img width="507" alt="Screen Shot 2023-01-12 at 10 46 51 AM" src="https://user-images.githubusercontent.com/83740546/212490809-769fd6a7-9dee-4d13-b73c-3d8c5ef31389.png">
 
 ## Testing Commands
 >After accessing the computer we tested different commands
