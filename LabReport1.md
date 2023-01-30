@@ -1,5 +1,10 @@
 # CSE 15L Lab Report 1
 
+## Table of Contents
+- Installing VS Code
+- Virtually Connecting
+- Testing Commands
+
 ## Installing VS Code
 >VS Code is the code editor that will be used throughout this course.
 1. Visit the Visual Studio Code website (https://code.visualstudio.com/) and download the proper version for your machines OS. 
