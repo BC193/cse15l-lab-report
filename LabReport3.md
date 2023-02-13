@@ -23,6 +23,7 @@ grep -r -l "Lucayans" written_2
 Output:
 written_2/travel_guides/berlitz2/Bahamas-History.txt
 ```
+
 > This looks for a file with the word Lucayans in the directory written_2. It is helpful to allow us to find where a particular word is found.
 
 
