@@ -13,6 +13,8 @@
 ## Command Line Options
 ### Part 1: "-l"
 > the -l command allows us to find a file with any specific string
+
+
 ``` 
 Input:
 
