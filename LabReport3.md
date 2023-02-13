@@ -22,6 +22,8 @@ Output:
 written_2/travel_guides/berlitz2/Bahamas-History.txt
 ```
 > This looks for a file with the word Lucayans in the directory written_2. It is helpful to allow us to find where a particular word is found.
+
+
 ``` 
 Input:
 
@@ -30,10 +32,13 @@ grep -r -l "definitive" written_2
 Output:
 written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
 ```
+
 > This looks for a file with the word definitive in the directory written_2. It allows for us to find a particular file when there are too many files to manually go through.
 
 ### Part 2: "-r"
 > the -r command makes grep recursive
+
+
 ``` 
 Input:
 
@@ -47,7 +52,10 @@ of water on their ships before they began the long journey back to Europe with t
 for the Lucayans, within 25 years all of them, perhaps some 30,000 people, were removed from the Bahamas to work — and 
 die — in Spanish gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
 ```
+
 > This looks for the text that includes the word Lucayans and it will return the entire file. When we need to find the word and its context the -r allows us to look through multiple files that search a wider scope. 
+
+
 ``` 
 Input:
 
@@ -60,10 +68,13 @@ port. Its showpiece is the Saint-Roch. This proud ship of the Royal Canadian Mou
 American continent via the Panama Canal and the Arctic Ocean, to plot a definitive Northwest Passage and hunt German 
 U-boats on the way.
 ```
+
 > This looks for the text that includes the word definitive and it will return the entire file. Looks into more files and a wider search. 
 
 ### Part 3: "-c"
 > the -c command allows us to find the total number of lines that are included on the 
+
+
 ``` 
 Input:
 
@@ -72,7 +83,10 @@ grep -c written_2 *.txt
 Output:
 236
 ```
+
 > This finds the total number of txt files in the directory written_2. Useful in potentially finding the total number of files a test will have to go through.
+
+
 ``` 
 Input:
 
@@ -83,10 +97,13 @@ DocSearchServer.java:1
 Server.java:0
 TestDocSearch.java:3
 ```
+
 > This through all the .java files in written_2 in order to find the total lines in each file. The wider scope of file search allows for helpful information regarding the files we are navigating. 
 
 ### Part 4: "-n"
 > the -n command allows us to find the line in a specific file where a string is found. It can help with combing the data and provide more direct links to information in bigger files. 
+
+
 ``` 
 Input:
 
@@ -110,7 +127,10 @@ long journey back to Europe with their cargoes of South American gold. As for th
 them, perhaps some 30,000 people, were removed from the Bahamas to work — and die — in Spanish gold mines and on 
 farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
 ```
+
 > This looks for the line numbers where the word Lucayans is contained. It can provide more context and allows us to go and physically refer to the line a command or sentence is located. 
+
+
 ``` 
 Input:
 
@@ -123,4 +143,5 @@ history and anthropology. The Maritime Museum traces the history of the Pacific 
 Saint-Roch. This proud ship of the Royal Canadian Mounted Police, sailed clear around the North American continent 
 via the Panama Canal and the Arctic Ocean, to plot a definitive Northwest Passage and hunt German U-boats on the way.
 ```
+
 > This looks for the line numbers where the word definitive is contained 
