@@ -147,4 +147,4 @@ Saint-Roch. This proud ship of the Royal Canadian Mounted Police, sailed clear a
 via the Panama Canal and the Arctic Ocean, to plot a definitive Northwest Passage and hunt German U-boats on the way.
 ```
 
-> This looks for the line numbers where the word definitive is contained 
+> This looks for the line numbers where the word definitive is contained. This onces again allows for more information and it can be chained with other methods to create more complex reading of files. 
