@@ -16,6 +16,9 @@
 - ```ssh cs15lwi23apj@ieng6.ucsd.edu```
 - ```<enter>```
 
+### What this does:
+> The virtual server was logged into.
+
 ## Cloning the Repository
 
 <img width="729" alt="Screen Shot 2023-02-27 at 2 09 28 PM" src="https://user-images.githubusercontent.com/83740546/221697127-e0174cee-e58b-4461-92d9-0b0525506638.png">
@@ -26,6 +29,8 @@
 - ```cd lab7```
 - ```<enter>```
 
+### What this does:
+> The repository was cloned and the directory was changed into the cloned repo.
 
 ## Tests Fail
 <img width="1061" alt="Screen Shot 2023-02-27 at 2 20 03 PM" src="https://user-images.githubusercontent.com/83740546/221698990-99524c74-7aaa-4d38-a307-88e5c8126469.png">
@@ -35,6 +40,9 @@
 - ```<enter>```
 - ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```
 - ```<enter>```
+
+### What this does:
+> It runs the JUnit tests after initializing all the java files in the repo.
 
 ## Fixing the Code
 <img width="579" alt="Screen Shot 2023-02-27 at 5 24 38 PM" src="https://user-images.githubusercontent.com/83740546/221728449-79f734e9-bc2d-4381-b678-03ee9106213e.png">
@@ -52,6 +60,9 @@
 - ```y```
 - ```<enter>```
 
+### What this does:
+> After checking the status of the loadability of the files, the status of all the files are changed to allow them to be modified. Then the file ```ListExamples.java``` is opened in order to fix the issue. Finally, the files are saved and the bug is handled.
+
 ## Tests Pass
 <img width="971" alt="Screen Shot 2023-02-27 at 5 31 15 PM" src="https://user-images.githubusercontent.com/83740546/221729441-d0e25431-df2a-4849-8012-d589beaed386.png">
 
@@ -61,6 +72,9 @@
 -  ```<up>``` 3 times
 - ```<enter>```
 
+### What this does:
+> Using autofill commands, the previous calls of the inializing and JUnit test running commands are rerun to show the code works.
+
 ## Commit and Push
 <img width="512" alt="Screen Shot 2023-02-27 at 5 32 48 PM" src="https://user-images.githubusercontent.com/83740546/221729619-cfc6f62e-8de2-4ee6-9f49-5438a643fa7d.png">
 
@@ -69,3 +83,6 @@
 ### Commands Used
 - ```git commit -m "fixed code in the ListExamples.java file"```
 - ```git push```
+
+### What this does:
+> The code is commited and pushed to the branch of the repo, which finalizes the code. 
