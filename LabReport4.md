@@ -17,7 +17,7 @@
 - ```<enter>```
 
 ### What this does:
-> The virtual server was logged into.
+> The virtual server was logged into via my specified student account.
 
 ## Cloning the Repository
 
@@ -56,12 +56,12 @@
 - ```<right>``` 12 times
 - ```<backspace>```
 - ```2```
-- ```ctrl x```
+- ```<ctrl x>```
 - ```y```
 - ```<enter>```
 
 ### What this does:
-> After checking the status of the loadability of the files, the status of all the files are changed to allow them to be modified. Then the file ```ListExamples.java``` is opened in order to fix the issue. Finally, the files are saved and the bug is handled.
+> After checking the status of the loadability of the files, the status of all the files are changed to allow them to be modified. Then the file ```ListExamples.java``` is opened in order to fix the issue. After using ```nano``` it allows us to edit the file via the terminal. Through the use of down arrows and right arrows we can locate the bug and use backspace to delete and fix the bug. When this is finished using ```ctrl x``` it allows us to exit the file and in that process it asks us to save any changes. By typing ```y``` and pressing ```<enter>``` it will save and exit the nano. 
 
 ## Tests Pass
 <img width="971" alt="Screen Shot 2023-02-27 at 5 31 15 PM" src="https://user-images.githubusercontent.com/83740546/221729441-d0e25431-df2a-4849-8012-d589beaed386.png">
