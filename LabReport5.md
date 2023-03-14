@@ -17,7 +17,7 @@
 * ```Method1``` and ```Method2``` use ```grep - o``` in order to find a the method headers in the code while ```awk{print $ }``` specifies what word to save as a string
 * Through the use of ```-n``` it allows use to find if the ***merge*** and ***filter*** method exist because if the method headers were found then something will be stored at the variables
 * An if statement with ```echo``` and ```exit``` are used again to discern if the method headers are correctly implemented and the script should continue
-* After compiling the file and tester we can check if it was compiled with another ```if``` statement that follows a similar logic to the other statements. If it worked as intended continue but if it fails ```exit```
+* After compiling the file and tester we can check if it was compiled with another ```if``` statement that follows a similar logic to the other statements. If it worked as intended it will continue but if it fails the ```exit``` command is ran
 * Then we can initialize the tester and redirect the output into a ```.txt``` file
 * By directing the result of the JUnit Tests into a file it creates a situation where you can read the file and ```grep``` to find specific information
 * Just like the ```Method``` variables we can check for: total, passed, and failed cases through the use of ```grep -o``` and ```awk```
