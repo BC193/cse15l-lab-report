@@ -14,7 +14,7 @@
 * Multiple remove statements are used to clear possibly messy implmentations of code
 * The first ```if``` statement checks if there exists a file that is named ```ListExamples.java``` using ```-e``` and an ```echo``` statement is used to announce it exists and if there isn't the process is stopped by ```exit 1``` indicating a missing file
 * ```cp``` is used to move the submission files into the main directory and allow for the tester to have direct access to the file we are testing
-* ```Method1``` and ```Method2``` use grep - o in order to find a particular line in the code while ```awk{print $ }``` specifies what word to save as a string
+* ```Method1``` and ```Method2``` use ```grep - o``` in order to find a particular line in the code while ```awk{print $ }``` specifies what word to save as a string
 * Through the use of ```-n``` it allows use to find if the ***merge*** and ***filter*** method exist because if the method headers were found then something will be stored at the variables
 * An if statement with ```echo``` and ```exit``` are used again to discern if the method headers are correctly implemented and the script should continue
 * After compiling the file and tester we can check if it was compiled with another ```if``` statement that follows a similar logic to the other statements. If it worked as intended continue but if it fails ```exit```
